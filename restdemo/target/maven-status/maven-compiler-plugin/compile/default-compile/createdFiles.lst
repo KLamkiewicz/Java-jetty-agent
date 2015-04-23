@@ -1,0 +1,3 @@
+com\example\restservicedemo\domain\Person.class
+com\example\restservicedemo\domain\Stargate.class
+com\example\restservicedemo\service\PersonManager.class

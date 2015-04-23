@@ -1,0 +1,15 @@
+TimeAgent-1.0.jar  
+Utworzenie Agenta jara
+>gradle fatJar
+
+Ustawiæ zmienna MAVEN_OPTS=-javaagent:sciezkaDoAgenta\TimeAgent-1.0.jar
+Pod Windows np. set MAVEN_OPTS=-javaagent:C:\folder\TimeAgent-1.0.jar
+
+W Agencie w TimeAgentTransformer 
+cp.insertClassPath("C:\\Users\\Admin\\workspace\\restdemo\\target\\restservicedemo.jar"); 
+zmienic sciezke na inna z restservicedemo(mvn package)
+
+Uruchomiæ mvn jetty:run 
+http://localhost:8080/travel
+
+
